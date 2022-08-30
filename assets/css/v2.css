@@ -1,0 +1,414 @@
+/* Colors */
+:root {
+    --color-default: #0a0d13;
+    --color-primary: #0d42ff;
+    --color-secondary: #00DEC3;
+  }
+
+/*--------------------------------------------------------------
+# Header & Sub-Header
+--------------------------------------------------------------*/
+
+.header {
+    background: black;
+}
+
+
+.dropdown-menu {
+    min-width:300px;
+  }
+
+.dropdown {
+    min-width: 300px;   
+}
+
+.dropdown-toggle {
+    min-width: 300px;
+}
+
+.dropdown-toggle::after {
+    justify-content: end!important;
+}
+
+
+/*--------------------------------------------------------------
+# Titulos y Parrafos
+--------------------------------------------------------------*/
+
+.tituloPrincipal {
+    font-weight: 700;
+}
+
+/*--------------------------------------------------------------
+# Buttons
+--------------------------------------------------------------*/
+
+.btn-pry-v2 {
+    background-color: var(--color-secondary);
+    border-color: var(--color-secondary);
+}
+
+.btn-sry-v2 {
+    background-color: white;
+    border-color: white;
+    color: var(--color-default);
+    margin-left: 20px;
+}
+
+.btn-ddwn {
+    background-color: #efefef;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 7px;
+    border: none;
+}
+
+.btn-ddwn:hover {
+    background-color: #efefef;
+    border: none;
+}
+
+.btnHeader {
+    background-color: white;
+    color: black!important;
+    padding-left: 10px!important;
+    padding-right: 10px!important;
+    border: none;
+}
+
+.btnHeader:hover{
+    background-color: black;
+    color: white!important;
+    border: solid 1px white;
+}
+
+/*--------------------------------------------------------------
+# Promos en tu ciudad
+--------------------------------------------------------------*/
+
+.img-tuciudad {
+    margin-right: 30px;
+}
+
+.promosSection {
+    margin-top: 100px;
+}
+/*--------------------------------------------------------------
+# Más pedidos
+--------------------------------------------------------------*/
+
+.mas-pedidos-section {
+    background-color: var(--color-secondary);
+}
+
+.cardTitle {
+    color: black;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.cardText{
+    color: #9E9B9B;
+    font-size: 16px;
+    margin: 0px;
+}
+
+.cardPrice {
+    color: #00DEC3;
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 0px;
+}
+
+
+/*--------------------------------------------------------------
+# ¿Para qué estás hoy?
+--------------------------------------------------------------*/
+
+.cardParaQueEstasHoy {
+    width: 200px!important;
+    border: transparent;
+    border-radius: 20px;
+    box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.19);
+    -webkit-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.19);
+    -moz-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.19);
+}
+
+/*--------------------------------------------------------------
+# RESTAURANTE ELEGIDO
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Sub-Header
+--------------------------------------------------------------*/
+
+.parrafoElegido {
+    margin: 0px;
+    padding: 0px 0px 0px 12px;
+    font-weight: bolder;
+}
+
+@media (max-width: 700px) {
+    .parrafoElegido {
+        font-size: 10px;
+    }
+}
+
+.rate {
+    color: #A6A4A4
+}
+
+.sub-header-elegido {
+    background-color: #1A9AE4;
+    opacity: 0.8;
+    height: 180px;
+    padding-top: 128px;
+}
+
+/*--------------------------------------------------------------
+# Cabezal
+--------------------------------------------------------------*/
+
+.cabezal {
+    padding: 0px;
+    margin: -180px 0px 0px 0px;
+}
+
+.cabezalImg { 
+    width: 100%;
+    min-height: 700px;
+    background-image: url("../img/Rectangle\ 41.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tituloLocal {
+    font-weight: 600;
+    font-size: 7rem;
+    color: white;
+}
+
+
+/*--------------------------------------------------------------
+# Body
+--------------------------------------------------------------*/
+
+.backTitleMenu {
+    background-color: var(--color-primary);
+    border-radius: 7px; 
+    color: white;
+}
+
+.text-start {
+    padding: 0.6rem 2rem;
+
+}
+
+.cardPriceOld {
+    margin-right: 15px;
+    text-decoration: line-through;
+}
+
+.contenedorBusqueda {
+    width: 20%;
+}
+
+@media (max-width: 767px) {
+    .contenedorBusqueda {
+        width: 80%;
+    }
+}
+
+@media (max-width: 767px) {
+    .contenedorGeneralBusqueda {
+        justify-content: center;
+    }
+}
+
+/*--------------------------------------------------------------
+# CATEGORIA ELEGIDA
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Categorias
+--------------------------------------------------------------*/
+
+.contenedorImagenCategorias {
+    background-color: gray;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.cardCategorias {
+    width: 200px!important;
+    border: transparent;
+    border-radius: 20px;
+    box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.19);
+    -webkit-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.19);
+    -moz-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.19);
+}
+
+.separadorCategorias {
+    border-bottom: solid 1px black;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    max-width: 90%;
+}
+
+.parrafoSubCard {
+    padding: 0px;
+    margin: 0px 0px 0px 10px;
+    font-size: 0.7rem;
+}
+
+.iconoCardCategorias {
+    max-width: 10px;
+}
+
+/*--------------------------------------------------------------
+# Modales
+--------------------------------------------------------------*/
+
+.imgModalProducto {
+    width: 100%;
+    object-fit: cover;
+    max-height: 300px;
+}
+
+.precioModalProducto {
+    font-weight: bolder;
+    color: var(--color-secondary);
+}
+
+.precioModalProductoExtra {
+    color: gray;
+}
+
+.btnAgregarProductoModal {
+    font-size: 10px;
+    padding: 0px;
+    margin: 0px;
+    color: black;
+    font-weight: bolder;
+}
+
+.btnPrecioModal {
+    padding: 0px;
+    margin: 0px;
+    font-weight: bolder;
+    color: black;
+}
+
+.descripcionProductoModal {
+    font-size: 12px;
+}
+
+.nombreAdicionalModal {
+    font-size: 14px;
+}
+
+.imgProductoModalCerrado {
+    object-fit: cover;
+    height: 100%;
+}
+
+.btnCerrar {
+    background-color: transparent;
+    border: solid 1px black;
+    border-radius: 100px;
+    height: 30px;
+    width: 30px;
+}
+
+.btnChanguito {
+    width: 100%;
+    background-color: var(--color-secondary);
+    border-color: var(--color-secondary);
+    color: black;
+}
+
+.btnAgregarProductoModalChanguito {
+    font-size: 14px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.btnChanguitoCantidad {
+    background-color: var(--color-secondary);
+    border-radius: 10px;
+}
+
+.btnChanguitoCantidadParrafo {
+    padding: 0px 10px 0px 10px;
+    margin: 0px;
+    font-weight: bolder;
+}
+
+.contenedorAgregarProducto {
+    background-color: var(--color-secondary);
+    border-color: var(--color-secondary)
+}
+
+/*--------------------------------------------------------------
+# Botón Sub-Modal Si hay productos en el changuito - Finalizar compra
+--------------------------------------------------------------*/
+
+.contenedorBtnAvanzarAlChanguito {
+    background-color: var(--color-secondary);
+    border-color: var(--color-secondary);
+}
+
+.btnAvanzarAlChanguito {
+    font-size: 11px;
+    padding: 0px;
+    margin: 0px;
+    color: black;
+    font-weight: bolder;
+}
+
+.btnPrecioAvanzarAlChanguito {
+    color: black;
+    padding: 0px;
+    margin: 0px;
+    font-weight: bolder;
+}
+
+/*--------------------------------------------------------------
+# Body Restaurant Elegido
+--------------------------------------------------------------*/
+@media (max-width: 767px) {
+
+    .body-restaurant-left {
+        padding-bottom: 30px;
+        text-align: center;
+    }
+}
+
+/*--------------------------------------------------------------
+# Changuito
+--------------------------------------------------------------*/
+
+.sectionChanguito {
+    margin-top: 120px;
+}
+
+.cardTuPedido {
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.19);
+    -webkit-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.19);
+    -moz-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.19);
+    
+}
+
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+.footer {
+    background-color: #efefef;
+  }
+
