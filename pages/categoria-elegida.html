@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
   
-    <title>VICI | Busqueda Ciudad</title>
+    <title>VICI | Categoría Elegida</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
   
@@ -34,37 +34,50 @@
 
 </head>
 <body>
-      <!-- ======= Header ======= -->
+            <!-- ======= Header ======= -->
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
       <img src="../assets/img/logoblanco.png" alt="logovici"> 
-        
       </a>
+
+      <div>
+        <div class="dropdown dropCity">
+          <button class="btn-ddwn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Tres Arroyos
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Ciudad 2</a></li>
+            <li><a class="dropdown-item" href="#">Ciudad 3</a></li>
+            <li><a class="dropdown-item" href="#">Ciudad 4</a></li>
+          </ul>
+        </div>
+      </div>
 
       <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
       <nav id="navbar" class="navbar">
+        
         <ul>
           <li><a href="https://l1b3bjh5odp.typeform.com/to/uA7vKuca" class="active">Registra tu negocio</a></li>
-          <li><a href="https://7qvi3clb2wy.typeform.com/to/dhyCIWvl">Riders</a></li>
-          <li><a href="https://api.whatsapp.com/send?phone=5492215737330&text=Hola%20VICI!%20Necesito%20ayuda...">Contacto</a></li>
+          <li><a href="https://7qvi3clb2wy.typeform.com/to/dhyCIWvl" class="active">Riders</a></li>
+          <!-- <li><a href="https://api.whatsapp.com/send?phone=5492215737330&text=Hola%20VICI!%20Necesito%20ayuda...">Contacto</a></li> -->
+          <li><a href="https://api.whatsapp.com/send?phone=5492215737330&text=Hola%20VICI!%20Necesito%20ayuda..." class="active">Ingresar</a></li>
           <li>
-          <div class="container">
-          <a href="#exampleModalToggle"  class="btn btn-primary" data-bs-toggle="modal" role="button" style="padding: 10px 5px 10px 5px;"> <span class="textobotonhd">Creá tu cuenta! </span></a>
-          </div></li>
-          
+            <div class="container">
+              <a href="#exampleModalToggle"  class="btn btn-primary btnHeader" data-bs-toggle="modal" role="button" style="padding: 10px 5px 10px 5px;"> <span class="textobotonhd">Creá tu cuenta! </span></a>
+            </div>
           </li>
-          </div>
-        </div> 
+          </li>
         </ul>
-      </nav><!-- .navbar -->
-
+    </div>
+      </nav>
+      <!-- .navbar -->
     </div>
   </header>
-<!-- End Header -->
+    <!-- End Header -->  
 <!-- Sub-header -->
     <div class="sub-header d-flex align-items-center">
         <div class="container-fluid container-xl d-flex align-items-center col-12">
@@ -90,396 +103,177 @@
 <!-- Cabezal -->
     <div>
         <div class="d-flex">
-            <img src="../assets/img/Rectangle 40.png" class="col-12" alt="">
+            <img src="../assets/img/Rectangle 40.png" class="col-12 mt-5 pt-4" alt="">
         </div>
     </div>
 
 <!-- Categorías -->
     <section class="categorias">
         <div class="container-fluid container-xl pb-4">
-        <h1>¿Para qué estás hoy?</h1>
+            <h1 class="tituloPrincipal">¿Para qué estás hoy?</h1>
         </div>
-        <div class="container-fluid container-xl d-flex justify-content-between">
-        <div class="card cardCategorias" style="width: 18rem;">
-            <img src="../assets/img/Rectangle 24.png" class="card-img-top" alt="...">
-            <div class="card-body d-flex justify-content-center align-items-center">
-            <h5 class="cardTitle">Comidas</h5>
+        <div class="d-flex test">
+            <div id="carouselParaQueEstas" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+    
+                <div class="card cardParaQueEstasHoy carousel-item active">
+                  <img src="../assets/img/Rectangle 24.png" class="card-img-top" alt="...">
+                  <div class="card-body d-flex justify-content-center align-items-center">
+                    <h5 class="cardTitle">Comidas</h5>
+                  </div>
+                </div>
+      
+                <div class="card cardParaQueEstasHoy carousel-item">
+                  <img src="../assets/img/Rectangle 24 (1).png" class="card-img-top" alt="...">
+                  <div class="card-body d-flex justify-content-center align-items-center">
+                    <h5 class="cardTitle">Postres</h5>
+                  </div>
+                </div>
+      
+                <div class="card cardParaQueEstasHoy carousel-item">
+                  <img src="../assets/img/Rectangle 24 (2).png" class="card-img-top" alt="...">
+                  <div class="card-body d-flex justify-content-center align-items-center">
+                    <h5 class="cardTitle">Mercado</h5>
+                  </div>
+                </div>
+    
+                <div class="card cardParaQueEstasHoy carousel-item">
+                  <img src="../assets/img/Rectangle 24 (3).png" class="card-img-top" alt="...">
+                  <div class="card-body d-flex justify-content-center align-items-center">
+                    <h5 class="cardTitle">Promos</h5>
+                  </div>
+                </div>
+    
+                <div class="card cardParaQueEstasHoy carousel-item">
+                  <img src="../assets/img/Rectangle 24 (4).png" class="card-img-top" alt="...">
+                  <div class="card-body d-flex justify-content-center align-items-center">
+                    <h5 class="cardTitle">Bebidas</h5>
+                  </div>
+                </div>
+    
+                <div class="card cardParaQueEstasHoy carousel-item">
+                  <img src="../assets/img/Rectangle 24.png" class="card-img-top" alt="...">
+                  <div class="card-body d-flex justify-content-center align-items-center">
+                    <h5 class="cardTitle">Bebidas</h5>
+                  </div>
+                </div>
+    
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselParaQueEstas" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselParaQueEstas" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
             </div>
-        </div>
-        <div class="card cardCategorias" style="width: 18rem;">
-            <img src="../assets/img/Rectangle 24 (1).png" class="card-img-top" alt="...">
-            <div class="card-body d-flex justify-content-center align-items-center">
-            <h5 class="cardTitle">Postres</h5>
-            </div>
-        </div>
-        <div class="card cardCategorias" style="width: 18rem;">
-            <img src="../assets/img/Rectangle 24 (2).png" class="card-img-top" alt="...">
-            <div class="card-body d-flex justify-content-center align-items-center">
-            <h5 class="cardTitle">Mercado</h5>
-            </div>
-        </div>
-        <div class="card cardCategorias" style="width: 18rem;">
-            <img src="../assets/img/Rectangle 24 (3).png" class="card-img-top" alt="...">
-            <div class="card-body d-flex justify-content-center align-items-center">
-            <h5 class="cardTitle">Promos</h5>
-            </div>
-        </div>
-        <div class="card cardCategorias" style="width: 18rem;">
-            <img src="../assets/img/Rectangle 24.png" class="card-img-top" alt="...">
-            <div class="card-body d-flex justify-content-center align-items-center">
-            <h5 class="cardTitle">Bebidas</h5>
-            </div>
-        </div>
-        </div>
+          </div>
+    
     </section>
 
     <!-- ======= Los más cercanos ======= -->
 
     <section class="losMasCercanos">
         <div class="container-xl">
-            <h3 class="mb-5">Los más cercanos</h3>
+            <h3 class="mb-5 tituloPrincipal">Los más cercanos</h3>
         </div>
+
         <div class="d-flex">
+            <div id="carouselLosMasCercanos" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
 
-            <div class="card col-1 m-2">
-                <img src="../assets/img/contenedor-50x50.jpg" class="card-img-top" alt="...">
-                <div class="card-body row justify-content-center">
-                    <img src="../assets/img/Grido_logo21.png" class="img-fluid" style="max-width: 60%;" alt="">
-                    <div class="separadorCategorias"></div>
-                    <div class="justify-content-evenly align-items-center">
-                        <div class="tiempoEntregaCategorias d-flex justify-content-center align-items-center">
-                            <img src="../assets/img/time 1.png" class="iconoCardCategorias" alt="">
-                            <p class="parrafoSubCard">40-60</p>
+                    <div class="card m-2 carousel-item active" style="width: 11rem;">
+                        <div>
+                        <img src="../assets/img/cardGrido-example.jpg" class="card-img-top" alt="...">
                         </div>
-                        <div class="footerCard d-flex justify-content-between pt-2">
-                            <div class="d-flex align-items-center">
-                                <img src="../assets/img/location-newsize.png" class="iconoCardCategorias" alt="">
-                                <p class="parrafoSubCard">0,1</p>
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <img src="../assets/img/star-newsize.png" class="iconoCardCategorias" alt="">
-                                <p class="parrafoSubCard">5</p>
+                        <div class="card-body row justify-content-center">
+                            <img src="../assets/img/Grido_logo21.png" class="img-fluid" style="max-width: 60%;" alt="">
+                            <div class="separadorCategorias"></div>
+                            <div class="justify-content-evenly align-items-center">
+                                <div class="tiempoEntregaCategorias d-flex justify-content-center align-items-center">
+                                    <img src="../assets/img/time 1.png" class="iconoCardCategorias" alt="">
+                                    <p class="parrafoSubCard" id="tiempoEntregaCard">40-60 Min.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
 
-            <div class="card col-1 m-2">
-                <img src="../assets/img/contenedor-50x50.jpg" class="card-img-top" alt="...">
-                <div class="card-body row justify-content-center">
-                    <img src="../assets/img/Grido_logo21.png" class="img-fluid" style="max-width: 60%;" alt="">
-                    <div class="separadorCategorias"></div>
-                    <div class="justify-content-evenly align-items-center">
-                        <div class="tiempoEntregaCategorias d-flex justify-content-center align-items-center">
-                            <img src="../assets/img/time 1.png" class="iconoCardCategorias" alt="">
-                            <p class="parrafoSubCard">40-60</p>
+                    <div class="card m-2 carousel-item" style="width: 11rem;">
+                        <div>
+                        <img src="../assets/img/cardGrido-example.jpg" class="card-img-top" alt="...">
                         </div>
-                        <div class="footerCard d-flex justify-content-between pt-2">
-                            <div class="d-flex align-items-center">
-                                <img src="../assets/img/location-newsize.png" class="iconoCardCategorias" alt="">
-                                <p class="parrafoSubCard">0,1</p>
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <img src="../assets/img/star-newsize.png" class="iconoCardCategorias" alt="">
-                                <p class="parrafoSubCard">5</p>
+                        <div class="card-body row justify-content-center">
+                            <img src="../assets/img/Grido_logo21.png" class="img-fluid" style="max-width: 60%;" alt="">
+                            <div class="separadorCategorias"></div>
+                            <div class="justify-content-evenly align-items-center">
+                                <div class="tiempoEntregaCategorias d-flex justify-content-center align-items-center">
+                                    <img src="../assets/img/time 1.png" class="iconoCardCategorias" alt="">
+                                    <p class="parrafoSubCard" id="tiempoEntregaCard">40-60 Min.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
 
-            <div class="card col-1 m-2">
-                <img src="../assets/img/contenedor-50x50.jpg" class="card-img-top" alt="...">
-                <div class="card-body row justify-content-center">
-                    <img src="../assets/img/Grido_logo21.png" class="img-fluid" style="max-width: 60%;" alt="">
-                    <div class="separadorCategorias"></div>
-                    <div class="justify-content-evenly align-items-center">
-                        <div class="tiempoEntregaCategorias d-flex justify-content-center align-items-center">
-                            <img src="../assets/img/time 1.png" class="iconoCardCategorias" alt="">
-                            <p class="parrafoSubCard">40-60</p>
+                    <div class="card m-2 carousel-item" style="width: 11rem;">
+                        <div>
+                        <img src="../assets/img/cardGrido-example.jpg" class="card-img-top" alt="...">
                         </div>
-                        <div class="footerCard d-flex justify-content-between pt-2">
-                            <div class="d-flex align-items-center">
-                                <img src="../assets/img/location-newsize.png" class="iconoCardCategorias" alt="">
-                                <p class="parrafoSubCard">0,1</p>
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <img src="../assets/img/star-newsize.png" class="iconoCardCategorias" alt="">
-                                <p class="parrafoSubCard">5</p>
+                        <div class="card-body row justify-content-center">
+                            <img src="../assets/img/Grido_logo21.png" class="img-fluid" style="max-width: 60%;" alt="">
+                            <div class="separadorCategorias"></div>
+                            <div class="justify-content-evenly align-items-center">
+                                <div class="tiempoEntregaCategorias d-flex justify-content-center align-items-center">
+                                    <img src="../assets/img/time 1.png" class="iconoCardCategorias" alt="">
+                                    <p class="parrafoSubCard" id="tiempoEntregaCard">40-60 Min.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
 
-            <div class="card col-1 m-2">
-                <img src="../assets/img/contenedor-50x50.jpg" class="card-img-top" alt="...">
-                <div class="card-body row justify-content-center">
-                    <img src="../assets/img/Grido_logo21.png" class="img-fluid" style="max-width: 60%;" alt="">
-                    <div class="separadorCategorias"></div>
-                    <div class="justify-content-evenly align-items-center">
-                        <div class="tiempoEntregaCategorias d-flex justify-content-center align-items-center">
-                            <img src="../assets/img/time 1.png" class="iconoCardCategorias" alt="">
-                            <p class="parrafoSubCard">40-60</p>
+                    <div class="card m-2 carousel-item" style="width: 11rem;">
+                        <div>
+                        <img src="../assets/img/cardGrido-example.jpg" class="card-img-top" alt="...">
                         </div>
-                        <div class="footerCard d-flex justify-content-between pt-2">
-                            <div class="d-flex align-items-center">
-                                <img src="../assets/img/location-newsize.png" class="iconoCardCategorias" alt="">
-                                <p class="parrafoSubCard">0,1</p>
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <img src="../assets/img/star-newsize.png" class="iconoCardCategorias" alt="">
-                                <p class="parrafoSubCard">5</p>
+                        <div class="card-body row justify-content-center">
+                            <img src="../assets/img/Grido_logo21.png" class="img-fluid" style="max-width: 60%;" alt="">
+                            <div class="separadorCategorias"></div>
+                            <div class="justify-content-evenly align-items-center">
+                                <div class="tiempoEntregaCategorias d-flex justify-content-center align-items-center">
+                                    <img src="../assets/img/time 1.png" class="iconoCardCategorias" alt="">
+                                    <p class="parrafoSubCard" id="tiempoEntregaCard">40-60 Min.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
 
-            <div class="card col-1 m-2">
-                <img src="../assets/img/contenedor-50x50.jpg" class="card-img-top" alt="...">
-                <div class="card-body row justify-content-center">
-                    <img src="../assets/img/Grido_logo21.png" class="img-fluid" style="max-width: 60%;" alt="">
-                    <div class="separadorCategorias"></div>
-                    <div class="justify-content-evenly align-items-center">
-                        <div class="tiempoEntregaCategorias d-flex justify-content-center align-items-center">
-                            <img src="../assets/img/time 1.png" class="iconoCardCategorias" alt="">
-                            <p class="parrafoSubCard">40-60</p>
+                    <div class="card m-2 carousel-item" style="width: 11rem;">
+                        <div>
+                        <img src="../assets/img/cardGrido-example.jpg" class="card-img-top" alt="...">
                         </div>
-                        <div class="footerCard d-flex justify-content-between pt-2">
-                            <div class="d-flex align-items-center">
-                                <img src="../assets/img/location-newsize.png" class="iconoCardCategorias" alt="">
-                                <p class="parrafoSubCard">0,1</p>
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <img src="../assets/img/star-newsize.png" class="iconoCardCategorias" alt="">
-                                <p class="parrafoSubCard">5</p>
+                        <div class="card-body row justify-content-center">
+                            <img src="../assets/img/Grido_logo21.png" class="img-fluid" style="max-width: 60%;" alt="">
+                            <div class="separadorCategorias"></div>
+                            <div class="justify-content-evenly align-items-center">
+                                <div class="tiempoEntregaCategorias d-flex justify-content-center align-items-center">
+                                    <img src="../assets/img/time 1.png" class="iconoCardCategorias" alt="">
+                                    <p class="parrafoSubCard" id="tiempoEntregaCard">40-60 Min.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselLosMasCercanos" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselLosMasCercanos" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
-
-            <div class="card col-1 m-2">
-                <img src="../assets/img/contenedor-50x50.jpg" class="card-img-top" alt="...">
-                <div class="card-body row justify-content-center">
-                    <img src="../assets/img/Grido_logo21.png" class="img-fluid" style="max-width: 60%;" alt="">
-                    <div class="separadorCategorias"></div>
-                    <div class="justify-content-evenly align-items-center">
-                        <div class="tiempoEntregaCategorias d-flex justify-content-center align-items-center">
-                            <img src="../assets/img/time 1.png" class="iconoCardCategorias" alt="">
-                            <p class="parrafoSubCard">40-60</p>
-                        </div>
-                        <div class="footerCard d-flex justify-content-between pt-2">
-                            <div class="d-flex align-items-center">
-                                <img src="../assets/img/location-newsize.png" class="iconoCardCategorias" alt="">
-                                <p class="parrafoSubCard">0,1</p>
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <img src="../assets/img/star-newsize.png" class="iconoCardCategorias" alt="">
-                                <p class="parrafoSubCard">5</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card col-1 m-2">
-                <img src="../assets/img/contenedor-50x50.jpg" class="card-img-top" alt="...">
-                <div class="card-body row justify-content-center">
-                    <img src="../assets/img/Grido_logo21.png" class="img-fluid" style="max-width: 60%;" alt="">
-                    <div class="separadorCategorias"></div>
-                    <div class="justify-content-evenly align-items-center">
-                        <div class="tiempoEntregaCategorias d-flex justify-content-center align-items-center">
-                            <img src="../assets/img/time 1.png" class="iconoCardCategorias" alt="">
-                            <p class="parrafoSubCard">40-60</p>
-                        </div>
-                        <div class="footerCard d-flex justify-content-between pt-2">
-                            <div class="d-flex align-items-center">
-                                <img src="../assets/img/location-newsize.png" class="iconoCardCategorias" alt="">
-                                <p class="parrafoSubCard">0,1</p>
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <img src="../assets/img/star-newsize.png" class="iconoCardCategorias" alt="">
-                                <p class="parrafoSubCard">5</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card col-1 m-2">
-                <img src="../assets/img/contenedor-50x50.jpg" class="card-img-top" alt="...">
-                <div class="card-body row justify-content-center">
-                    <img src="../assets/img/Grido_logo21.png" class="img-fluid" style="max-width: 60%;" alt="">
-                    <div class="separadorCategorias"></div>
-                    <div class="justify-content-evenly align-items-center">
-                        <div class="tiempoEntregaCategorias d-flex justify-content-center align-items-center">
-                            <img src="../assets/img/time 1.png" class="iconoCardCategorias" alt="">
-                            <p class="parrafoSubCard">40-60</p>
-                        </div>
-                        <div class="footerCard d-flex justify-content-between pt-2">
-                            <div class="d-flex align-items-center">
-                                <img src="../assets/img/location-newsize.png" class="iconoCardCategorias" alt="">
-                                <p class="parrafoSubCard">0,1</p>
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <img src="../assets/img/star-newsize.png" class="iconoCardCategorias" alt="">
-                                <p class="parrafoSubCard">5</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card col-1 m-2">
-                <img src="../assets/img/contenedor-50x50.jpg" class="card-img-top" alt="...">
-                <div class="card-body row justify-content-center">
-                    <img src="../assets/img/Grido_logo21.png" class="img-fluid" style="max-width: 60%;" alt="">
-                    <div class="separadorCategorias"></div>
-                    <div class="justify-content-evenly align-items-center">
-                        <div class="tiempoEntregaCategorias d-flex justify-content-center align-items-center">
-                            <img src="../assets/img/time 1.png" class="iconoCardCategorias" alt="">
-                            <p class="parrafoSubCard">40-60</p>
-                        </div>
-                        <div class="footerCard d-flex justify-content-between pt-2">
-                            <div class="d-flex align-items-center">
-                                <img src="../assets/img/location-newsize.png" class="iconoCardCategorias" alt="">
-                                <p class="parrafoSubCard">0,1</p>
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <img src="../assets/img/star-newsize.png" class="iconoCardCategorias" alt="">
-                                <p class="parrafoSubCard">5</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card col-1 m-2">
-                <img src="../assets/img/contenedor-50x50.jpg" class="card-img-top" alt="...">
-                <div class="card-body row justify-content-center">
-                    <img src="../assets/img/Grido_logo21.png" class="img-fluid" style="max-width: 60%;" alt="">
-                    <div class="separadorCategorias"></div>
-                    <div class="justify-content-evenly align-items-center">
-                        <div class="tiempoEntregaCategorias d-flex justify-content-center align-items-center">
-                            <img src="../assets/img/time 1.png" class="iconoCardCategorias" alt="">
-                            <p class="parrafoSubCard">40-60</p>
-                        </div>
-                        <div class="footerCard d-flex justify-content-between pt-2">
-                            <div class="d-flex align-items-center">
-                                <img src="../assets/img/location-newsize.png" class="iconoCardCategorias" alt="">
-                                <p class="parrafoSubCard">0,1</p>
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <img src="../assets/img/star-newsize.png" class="iconoCardCategorias" alt="">
-                                <p class="parrafoSubCard">5</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card col-1 m-2">
-                <img src="../assets/img/contenedor-50x50.jpg" class="card-img-top" alt="...">
-                <div class="card-body row justify-content-center">
-                    <img src="../assets/img/Grido_logo21.png" class="img-fluid" style="max-width: 60%;" alt="">
-                    <div class="separadorCategorias"></div>
-                    <div class="justify-content-evenly align-items-center">
-                        <div class="tiempoEntregaCategorias d-flex justify-content-center align-items-center">
-                            <img src="../assets/img/time 1.png" class="iconoCardCategorias" alt="">
-                            <p class="parrafoSubCard">40-60</p>
-                        </div>
-                        <div class="footerCard d-flex justify-content-between pt-2">
-                            <div class="d-flex align-items-center">
-                                <img src="../assets/img/location-newsize.png" class="iconoCardCategorias" alt="">
-                                <p class="parrafoSubCard">0,1</p>
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <img src="../assets/img/star-newsize.png" class="iconoCardCategorias" alt="">
-                                <p class="parrafoSubCard">5</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card col-1 m-2">
-                <img src="../assets/img/contenedor-50x50.jpg" class="card-img-top" alt="...">
-                <div class="card-body row justify-content-center">
-                    <img src="../assets/img/Grido_logo21.png" class="img-fluid" style="max-width: 60%;" alt="">
-                    <div class="separadorCategorias"></div>
-                    <div class="justify-content-evenly align-items-center">
-                        <div class="tiempoEntregaCategorias d-flex justify-content-center align-items-center">
-                            <img src="../assets/img/time 1.png" class="iconoCardCategorias" alt="">
-                            <p class="parrafoSubCard">40-60</p>
-                        </div>
-                        <div class="footerCard d-flex justify-content-between pt-2">
-                            <div class="d-flex align-items-center">
-                                <img src="../assets/img/location-newsize.png" class="iconoCardCategorias" alt="">
-                                <p class="parrafoSubCard">0,1</p>
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <img src="../assets/img/star-newsize.png" class="iconoCardCategorias" alt="">
-                                <p class="parrafoSubCard">5</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card col-1 m-2">
-                <img src="../assets/img/contenedor-50x50.jpg" class="card-img-top" alt="...">
-                <div class="card-body row justify-content-center">
-                    <img src="../assets/img/Grido_logo21.png" class="img-fluid" style="max-width: 60%;" alt="">
-                    <div class="separadorCategorias"></div>
-                    <div class="justify-content-evenly align-items-center">
-                        <div class="tiempoEntregaCategorias d-flex justify-content-center align-items-center">
-                            <img src="../assets/img/time 1.png" class="iconoCardCategorias" alt="">
-                            <p class="parrafoSubCard">40-60</p>
-                        </div>
-                        <div class="footerCard d-flex justify-content-between pt-2">
-                            <div class="d-flex align-items-center">
-                                <img src="../assets/img/location-newsize.png" class="iconoCardCategorias" alt="">
-                                <p class="parrafoSubCard">0,1</p>
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <img src="../assets/img/star-newsize.png" class="iconoCardCategorias" alt="">
-                                <p class="parrafoSubCard">5</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card col-1 m-2">
-                <img src="../assets/img/contenedor-50x50.jpg" class="card-img-top" alt="...">
-                <div class="card-body row justify-content-center">
-                    <img src="../assets/img/Grido_logo21.png" class="img-fluid" style="max-width: 60%;" alt="">
-                    <div class="separadorCategorias"></div>
-                    <div class="justify-content-evenly align-items-center">
-                        <div class="tiempoEntregaCategorias d-flex justify-content-center align-items-center">
-                            <img src="../assets/img/time 1.png" class="iconoCardCategorias" alt="">
-                            <p class="parrafoSubCard">40-60</p>
-                        </div>
-                        <div class="footerCard d-flex justify-content-between pt-2">
-                            <div class="d-flex align-items-center">
-                                <img src="../assets/img/location-newsize.png" class="iconoCardCategorias" alt="">
-                                <p class="parrafoSubCard">0,1</p>
-                            </div>
-                            <div class="d-flex align-items-center">
-                                <img src="../assets/img/star-newsize.png" class="iconoCardCategorias" alt="">
-                                <p class="parrafoSubCard">5</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
-            
+ 
         </div>
     </section>
 
@@ -488,7 +282,7 @@
 
     <section class="mejoresCriticas">
         <div class="container-xl">
-            <h3 class="mb-5">Mejores Criticas</h3>
+            <h3 class="mb-5 tituloPrincipal">Mejores Criticas</h3>
         </div>
         <div class="d-flex">
 
