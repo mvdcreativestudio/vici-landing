@@ -310,7 +310,7 @@ section {
 }
 
 .header.sticked {
-  background: rgba(14, 29, 52, 0.9);
+  background: rgb(255, 255, 255);
   padding: 15px 0;
   box-shadow: 0px 2px 20px rgba(14, 29, 52, 0.1);
 }
@@ -364,7 +364,7 @@ section {
     font-family: var(--font-primary);
     font-size: 16px;
     font-weight: 400;
-
+    color: white;
     white-space: nowrap;
     transition: 0.3s;
   }
