@@ -28,49 +28,63 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/v2.css">
 
 </head>
 
 <body>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-      <img src=".\assets\img\logoblanco.png" alt="logovici"> 
-        
-      </a>
 
-      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a href="https://l1b3bjh5odp.typeform.com/to/uA7vKuca" class="active">Registra tu negocio</a></li>
-          <li><a href="https://7qvi3clb2wy.typeform.com/to/dhyCIWvl">Riders</a></li>
-          <li><a href="https://api.whatsapp.com/send?phone=5492215737330&text=Hola%20VICI!%20Necesito%20ayuda...">Contacto</a></li>
-          <li>
-          <div class="container">
-          <a href="#exampleModalToggle"  class="btn btn-primary" data-bs-toggle="modal" role="button" style="padding: 10px 5px 10px 5px;"> <span class="textobotonhd">Creá tu cuenta! </span></a>
-          </div></li>
-          
-          </li>
+        <!-- ======= Header ======= -->
+        <header id="header" class="header d-flex align-items-center fixed-top">
+          <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+      
+            <a href="index.html" class="logo d-flex align-items-center">
+              <img class="col-12" src="../assets/img/logonegro.png" alt="logovici"> 
+            </a>
+      
+            <div>
+              <div class="dropdown dropCity">
+                <button class="btn-ddwn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Tres Arroyos
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Ciudad 2</a></li>
+                  <li><a class="dropdown-item" href="#">Ciudad 3</a></li>
+                  <li><a class="dropdown-item" href="#">Ciudad 4</a></li>
+                </ul>
+              </div>
+            </div>
+      
+            <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+            <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+            <nav id="navbar" class="navbar">
+              
+              <ul>
+                <li><a href="https://l1b3bjh5odp.typeform.com/to/uA7vKuca" class="itemMenu">Registra tu negocio</a></li>
+                <li><a href="https://7qvi3clb2wy.typeform.com/to/dhyCIWvl" class="itemMenu">Riders</a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=5492215737330&text=Hola%20VICI!%20Necesito%20ayuda..." class="itemMenu">Contacto</a></li>
+                <!-- <li><a href="https://api.whatsapp.com/send?phone=5492215737330&text=Hola%20VICI!%20Necesito%20ayuda..." class="itemMenu">Ingresar</a></li> -->
+                <li>
+                  <div class="container">
+                    <a href="#exampleModalToggle"  class="btn btn-primary btnHeader" data-bs-toggle="modal" role="button" style="padding: 10px 5px 10px 5px;"> <span class="textobotonhd">Creá tu cuenta! </span></a>
+                  </div>
+                </li>
+                </li>
+              </ul>
           </div>
-        </div> 
-        </ul>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header><!-- End Header -->
-  <!-- End Header -->
+            </nav><!-- .navbar -->
+          </div>
+        </header>
+          <!-- End Header -->   
   
   <!-- Modal -->
 
   <div class="modal primero fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
-      <div class="modal-header">
+      <div class="modal-header pt-5 pb-3">
         <h5 class="modal-title" id="staticBackdropLabel">Creá tu cuenta ahora y pedí lo que quieras!</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
@@ -79,7 +93,7 @@
            <!-- Nombre input -->
            <div class="form-outline mb-4">
             <label class="form-label" for="form2Example1">¿Cómo te llamas?</label>
-            <input type="email" id="form2Example1" class="form-control" placeholder="tu nombre aquí" />
+            <input type="email" id="form2Example1" class="form-control" placeholder="Tu nombre aquí" />
           </div>
 
           <!-- Email input -->
@@ -116,9 +130,9 @@
             </div>  
           </div>
           <!-- Submit button -->
-          <div class="col d-flex justify-content-center">
-          <button type="submit" class="btn btn-primary btn-block mx-1 btn-modal">Crear mi cuenta</button>
-          <button class="btn btn-primary btn-modal" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Ya tengo cuenta</button>
+          <div class="col d-flex justify-content-center pb-3">
+          <button type="submit" class="btn btn-primary btn-primario btn-block mx-1 btn-modal">Crear mi cuenta</button>
+          <button class="btn btn-primary btn-primario btn-modal" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Ya tengo cuenta</button>
          </div>
 
           <!-- Register buttons -->

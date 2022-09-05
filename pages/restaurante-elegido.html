@@ -35,36 +35,47 @@
 </head>
 <body>
       <!-- ======= Header ======= -->
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-
-      <a href="index.html" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-      <img src="../assets/img/logoblanco.png" alt="logovici"> 
-        
-      </a>
-
-      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a href="https://l1b3bjh5odp.typeform.com/to/uA7vKuca" class="active">Registra tu negocio</a></li>
-          <li><a href="https://7qvi3clb2wy.typeform.com/to/dhyCIWvl">Riders</a></li>
-          <li><a href="https://api.whatsapp.com/send?phone=5492215737330&text=Hola%20VICI!%20Necesito%20ayuda...">Contacto</a></li>
-          <li>
-          <div class="container">
-          <a href="#exampleModalToggle"  class="btn btn-primary" data-bs-toggle="modal" role="button" style="padding: 10px 5px 10px 5px;"> <span class="textobotonhd">Creá tu cuenta! </span></a>
-          </div></li>
-          
-          </li>
+      <header id="header" class="header d-flex align-items-center fixed-top">
+        <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+    
+          <a href="index.html" class="logo d-flex align-items-center">
+            <img class="col-12" src="../assets/img/logonegro.png" alt="logovici"> 
+          </a>
+    
+          <div>
+            <div class="dropdown dropCity">
+              <button class="btn-ddwn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Tres Arroyos
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Ciudad 2</a></li>
+                <li><a class="dropdown-item" href="#">Ciudad 3</a></li>
+                <li><a class="dropdown-item" href="#">Ciudad 4</a></li>
+              </ul>
+            </div>
           </div>
-        </div> 
-        </ul>
-      </nav><!-- .navbar -->
-
-    </div>
-  </header>
-    <!-- End Header -->
+    
+          <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+          <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+          <nav id="navbar" class="navbar">
+            
+            <ul>
+              <li><a href="https://l1b3bjh5odp.typeform.com/to/uA7vKuca" class="itemMenu">Registra tu negocio</a></li>
+              <li><a href="https://7qvi3clb2wy.typeform.com/to/dhyCIWvl" class="itemMenu">Riders</a></li>
+              <!-- <li><a href="https://api.whatsapp.com/send?phone=5492215737330&text=Hola%20VICI!%20Necesito%20ayuda...">Contacto</a></li> -->
+              <li><a href="https://api.whatsapp.com/send?phone=5492215737330&text=Hola%20VICI!%20Necesito%20ayuda..." class="itemMenu">Ingresar</a></li>
+              <li>
+                <div class="container">
+                  <a href="#exampleModalToggle"  class="btn btn-primary btnHeader" data-bs-toggle="modal" role="button" style="padding: 10px 5px 10px 5px;"> <span class="textobotonhd">Creá tu cuenta! </span></a>
+                </div>
+              </li>
+              </li>
+            </ul>
+        </div>
+          </nav><!-- .navbar -->
+        </div>
+      </header>
+        <!-- End Header -->   
     <!-- Sub-header -->
     <div class="sub-header-elegido d-flex align-items-center">
         <div class="container-fluid d-flex align-items-center col-md-8">
@@ -90,8 +101,8 @@
     <!-- Cabezal -->
 
     <section class="cabezal">
-        <div class="d-flex col-12">
-          <div class="cabezalImg container-fluid d-flex justify-content-center align-items-center">
+        <div class="d-flex col-md-12">
+          <div class="cabezalImg container-fluid d-flex justify-content-center align-items-center pt-5">
             <h1 class="tituloLocal">Grido</h1>
           </div>  
         </div>
@@ -101,7 +112,7 @@
 
     <section class="body-restaurant container-xl d-flex col-md-12 flex-wrap">
         
-      <div class="d-flex col-12 pb-4 contenedorGeneralBusqueda">
+      <div class="d-flex col-md-12 pb-4 contenedorGeneralBusqueda justify-content-center">
           <div class="input-group rounded contenedorBusqueda">
             <input type="search" class="form-control rounded" placeholder="Buscá tu producto..." aria-label="Search" aria-describedby="search-addon" />
             <span class="input-group-text border-0" id="search-addon">
@@ -110,16 +121,19 @@
           </div>
         </div>
 
-        <div class="body-restaurant-left col-12 col-md-3">
-            <h2>Menú:</h2>
-            <p class="menuItem" id="menuItem">Hamburguesas (19)</p>
-            <p class="menuItem" id="menuItem">Hamburguesas (19)</p>
-            <p class="menuItem" id="menuItem">Hamburguesas (19)</p>
-            <p class="menuItem" id="menuItem">Hamburguesas (19)</p>
-            <p class="menuItem" id="menuItem">Hamburguesas (19)</p>
+        <div class="body-restaurant-left col-12 col-md-2">
+            <h5 class="bolder pb-3">Menú:</h5>
+            <p class="menuItem" id="menuItem"><a href="" class="menuItem"> Hamburguesas (19)</a></p>
+            <p class="menuItem" id="menuItem"><a href="" class="menuItem"> Hamburguesas (19)</a></p>
+            <p class="menuItem" id="menuItem"><a href="" class="menuItem"> Hamburguesas (19)</a></p>
+            <p class="menuItem" id="menuItem"><a href="" class="menuItem"> Hamburguesas (19)</a></p>
+            <p class="menuItem" id="menuItem"><a href="" class="menuItem"> Hamburguesas (19)</a></p>
+            <p class="menuItem" id="menuItem"><a href="" class="menuItem"> Hamburguesas (19)</a></p>
+            <p class="menuItem" id="menuItem"><a href="" class="menuItem"> Hamburguesas (19)</a></p>
+            <p class="menuItem" id="menuItem"><a href="" class="menuItem"> Hamburguesas (19)</a></p>
         </div>
 
-        <div class="body-restaurant-middle col-12 col-md-6">
+        <div class="body-restaurant-middle col-12 col-md-8">
             <div class="backTitleMenu">
                 <h3 class="text-start">Hasta $399:</h3>
             </div>
@@ -149,10 +163,6 @@
                       <h3 class="text-start">Recomendados</h3>
                   </div>
         </div>
-
-
-
-        
 
         <!-- Modal Abierto - Producto -->
 
@@ -215,19 +225,38 @@
 
         <!-- Fin Modal Producto Abierto -->
 
+        <!-- Aside Info del Restaurant -->
 
 
+        <div class="body-restaurant-right col-12 col-md-2">
+          <div class="contenedorInfoRestaurant ">
+            <h5 class="bolder">Información del Restaurante</h5>
 
-
-
-        <!-- Aside Changuito -->
-
-
-        <div class="body-restaurant-right pt-5 col-12 col-md-3">
-            <div class="text-center contenedorChanguito">
-                <img src="../assets/img/carrito-de-compras 1.png"alt="">
-                <p>¡El changuito está vacío!</p>
+            <div class="pt-3 ">
+              <h6><b>Dirección</b></h6>
+              <p class="textoInformacionRestaurant">Triq Mons. Vella, Rabat</p>
+              <p class="textoInformacionRestaurant">VCT 1450 Gozo</p>
+              <p class="pt-2 bolder"><a href="">Ver Mapa</a></p>
             </div>
+
+            <div class="pt-3 ">
+              <h6 class="bolder">Horarios</h6>
+              <table class="table  horariosRestaurantes">
+                <tbody>
+                  <tr>
+                    <td class="tablaHorarios">Lunes a Jueves</td>
+                    <td class="tablaHorarios">10:00 a 22:30hs.</td>
+                  </tr>
+                  <tr>
+                    <td class="tablaHorarios">Viernes a Domingo</td>
+                    <td class="tablaHorarios">10:00 a 00:00hs.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+
+          </div>
         </div>
 
         
@@ -298,6 +327,7 @@
       </div>
     </div>
 
+    
   </footer><
   <!-- End Footer -->
   <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
