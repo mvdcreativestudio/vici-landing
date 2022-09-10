@@ -6,11 +6,49 @@
   }
 
 /*--------------------------------------------------------------
+# Header Index
+--------------------------------------------------------------*/
+.headerIndex {
+    transition: all 0.5s;
+    z-index: 997;
+    padding: 30px 0;
+  
+  
+  }
+  
+  .headerIndex.sticked {
+    background: rgba(14, 29, 52, 0.9);
+    padding: 15px 0;
+    box-shadow: 0px 2px 20px rgba(14, 29, 52, 0.1);
+  }
+  
+  .headerIndex .logo img {
+    max-height: 60px;
+    margin-right: 6px;
+  }
+  
+  .headerIndex .logo h1 {
+    font-size: 30px;
+    margin: 0;
+    font-weight: 700;
+    color: #fff;
+    font-family: var(--font-primary);
+  }
+  
+  .textobotonhd {
+  
+    font-size: 20px;
+    font-weight: bold;
+    font-family: var(--font-primary);
+  }
+
+/*--------------------------------------------------------------
 # Header & Sub-Header
 --------------------------------------------------------------*/
 
 .header {
     background: white;
+
 }
 
 
@@ -154,6 +192,41 @@
     margin: 0px;
 }
 
+/*--------------------------------------------------------------
+# Los Más Cercanos
+--------------------------------------------------------------*/
+
+.cardMasCercanos {
+    border-radius: 15px;
+    margin: 10px;
+    padding: 0px;
+    padding-bottom: 5px;
+    box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.19);
+    -webkit-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.19);
+    -moz-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.19);
+}
+
+.card-img-top {
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+/*--------------------------------------------------------------
+# Mejores Críticas
+--------------------------------------------------------------*/
+
+.cardMejoresCriticas {
+    border-radius: 15px;
+    margin: 10px;
+    padding: 0px;
+    padding-bottom: 5px;
+    box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.19);
+    -webkit-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.19);
+    -moz-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.19);
+}
+
+
+
 
 /*--------------------------------------------------------------
 # ¿Para qué estás hoy?
@@ -166,6 +239,7 @@
     box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.19);
     -webkit-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.19);
     -moz-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.19);
+    margin-bottom: 10px;
 }
 
 /*--------------------------------------------------------------
@@ -346,8 +420,8 @@
 }
 
 .imgProductoModalCerrado {
-    object-fit: cover;
-    height: 100%;
+    object-fit: fill;
+    max-height: 220px;
 }
 
 .btnCerrar {
@@ -386,6 +460,8 @@
     background-color: var(--color-secondary);
     border-color: var(--color-secondary)
 }
+
+
 
 /*--------------------------------------------------------------
 # Botón Sub-Modal Si hay productos en el changuito - Finalizar compra

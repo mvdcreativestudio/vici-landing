@@ -35,6 +35,7 @@
 </head>
 <body>
       <!-- ======= Header ======= -->
+      <section>
       <header id="header" class="header d-flex align-items-center fixed-top">
         <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
     
@@ -75,9 +76,10 @@
           </nav><!-- .navbar -->
         </div>
       </header>
+    </section>
         <!-- End Header -->   
     <!-- Sub-header -->
-    <div class="sub-header-elegido d-flex align-items-center">
+    <!-- <div class="sub-header-elegido d-flex align-items-center">
         <div class="container-fluid d-flex align-items-center col-md-8">
             <div class="container-fluid d-flex justify-content-between">
                 <div class="d-flex align-items-center">
@@ -96,7 +98,7 @@
                 </div>
             </div>
         </div>
-    </div>    
+    </div>     -->
     
     <!-- Cabezal -->
 
@@ -141,7 +143,7 @@
         <!-- Modal Cerrado -->
 
                     <div data-bs-toggle="modal" data-bs-target="#modalProducto">
-                        <div class="card mb-3 mt-4">
+                        <div class="card mb-3 mt-4" style="height: auto;">
                             <div class="row g-0">
                                 <div class="col-8">
                                     <div class="card-body">
@@ -151,9 +153,13 @@
                                             <p class="cardPriceOld">$500</p>
                                             <p class="cardPriceNew">$399</p>
                                         </div>
+                                        <div class="botonesTarjeta d-flex justify-content-between">
+                                          <button class="btn btn-primary">Ver detalle</button>
+                                          <button class="btn btn-primary">Agregar a la orden</button>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="col-4">
+                                <div class="col-4 text-end">
                                     <img src="../assets/img/producto-ejemplo.png" class="img-fluid rounded-end imgProductoModalCerrado" alt="...">
                                 </div>   
                             </div>
