@@ -101,6 +101,13 @@
     margin-left: 20px;
 }
 
+.btn-try-v2 {
+    background-color: var(--color-primary);
+    color: white;
+    border: none;
+
+}
+
 .btn-ddwn {
     background-color: #efefef;
     padding-top: 6px;
@@ -528,6 +535,13 @@
 .menuItem:hover {
     color: black;
 }
+
+
+
+
+
+
+
 
 
 
