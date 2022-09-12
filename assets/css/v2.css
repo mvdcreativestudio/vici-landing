@@ -532,9 +532,6 @@
     text-decoration: none;
 }
 
-.menuItem:hover {
-    color: black;
-}
 
 
 
@@ -613,3 +610,14 @@
     background-color: #efefef;
   }
 
+
+
+
+
+.ocultar:hover .mostrar {
+    visibility: visible;
+}
+
+.ocultar .mostrar {
+    visibility: hidden;
+}

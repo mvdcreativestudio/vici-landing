@@ -144,7 +144,7 @@
             </div>
             
                     <div data-bs-toggle="modal" data-bs-target="#modalProducto">
-                        <div class="card mb-3 mt-4" style="height: auto;">
+                        <div class="card mb-3 mt-4 ocultar" style="height: auto;">
                             <div class="row g-0">
                                 <div class="col-8">
                                     <div class="card-body">
@@ -154,9 +154,9 @@
                                             <p class="cardPriceOld">$500</p>
                                             <p class="cardPriceNew">$399</p>
                                         </div>
-                                        <div class="botonesTarjeta d-flex justify-content-between">
-                                          <button class="btn btn-primary btn-try-v2">Ver detalle</button>
-                                          <button class="btn btn-primary btn-try-v2">Agregar a la orden</button>
+                                        <div class="botonesTarjeta d-flex justify-content-between ">
+                                          <button class="btn btn-primary btn-try-v2 mostrar">Ver detalle</button>
+                                          <button class="btn btn-primary btn-try-v2 mostrar">Agregar a la orden</button>
                                         </div>
                                     </div>
                                 </div>
@@ -167,82 +167,16 @@
                         </div>
                     </div>
 
-                    <div data-bs-toggle="modal" data-bs-target="#modalProducto">
-                      <div class="card mb-3 mt-4" style="height: auto;">
-                          <div class="row g-0">
-                              <div class="col-8">
-                                  <div class="card-body">
-                                      <h5 class="card-title">Single Iconic Combo</h5>
-                                      <p class="card-text">The juicy Iconic Burguer, which is a classic on the menu. Butter-baked brioche bun, juicy stack, mayo...</p>
-                                      <div class="cardPrice d-flex">
-                                          <p class="cardPriceOld">$500</p>
-                                          <p class="cardPriceNew">$399</p>
-                                      </div>
-                                      <div class="botonesTarjeta d-flex justify-content-between">
-                                        <button class="btn btn-primary btn-try-v2">Ver detalle</button>
-                                        <button class="btn btn-primary btn-try-v2">Agregar a la orden</button>
-                                      </div>
-                                  </div>
-                              </div>
-                              <div class="col-4 text-end">
-                                  <img src="../assets/img/producto-ejemplo.png" class="img-fluid rounded-end imgProductoModalCerrado" alt="...">
-                              </div>   
-                          </div>
-                      </div>
-                  </div>
+                    
 
 
                   <div class="backTitleMenu">
                       <h3 class="text-start">Recomendados</h3>
                   </div>
 
-                  <div data-bs-toggle="modal" data-bs-target="#modalProducto">
-                    <div class="card mb-3 mt-4" style="height: auto;">
-                        <div class="row g-0">
-                            <div class="col-8">
-                                <div class="card-body">
-                                    <h5 class="card-title">Single Iconic Combo</h5>
-                                    <p class="card-text">The juicy Iconic Burguer, which is a classic on the menu. Butter-baked brioche bun, juicy stack, mayo...</p>
-                                    <div class="cardPrice d-flex">
-                                        <p class="cardPriceOld">$500</p>
-                                        <p class="cardPriceNew">$399</p>
-                                    </div>
-                                    <div class="botonesTarjeta d-flex justify-content-between">
-                                      <button class="btn btn-primary btn-try-v2">Ver detalle</button>
-                                      <button class="btn btn-primary btn-try-v2">Agregar a la orden</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-4 text-end">
-                                <img src="../assets/img/producto-ejemplo.png" class="img-fluid rounded-end imgProductoModalCerrado" alt="...">
-                            </div>   
-                        </div>
-                    </div>
-                </div>
+                  
 
-                <div data-bs-toggle="modal" data-bs-target="#modalProducto">
-                  <div class="card mb-3 mt-4" style="height: auto;">
-                      <div class="row g-0">
-                          <div class="col-8">
-                              <div class="card-body">
-                                  <h5 class="card-title">Single Iconic Combo</h5>
-                                  <p class="card-text">The juicy Iconic Burguer, which is a classic on the menu. Butter-baked brioche bun, juicy stack, mayo...</p>
-                                  <div class="cardPrice d-flex">
-                                      <p class="cardPriceOld">$500</p>
-                                      <p class="cardPriceNew">$399</p>
-                                  </div>
-                                  <div class="botonesTarjeta d-flex justify-content-between">
-                                    <button class="btn btn-primary btn-try-v2">Ver detalle</button>
-                                    <button class="btn btn-primary btn-try-v2">Agregar a la orden</button>
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="col-4 text-end">
-                              <img src="../assets/img/producto-ejemplo.png" class="img-fluid rounded-end imgProductoModalCerrado" alt="...">
-                          </div>   
-                      </div>
-                  </div>
-                </div>
+                
         </div>
 
         <!-- Modal Abierto - Producto -->
@@ -312,7 +246,9 @@
         <div class="body-restaurant-right col-12 col-md-2">
           <div class="contenedorInfoRestaurant ">
             <h5 class="bolder">Información del Restaurante</h5>
-
+            <div>
+              <img class="pt-2 pb-2" src="../assets/img/Grido_logo21.png" alt="" style="max-width: 100%;  ">
+            </div>
             <div class="pt-3 ">
               <h6><b>Dirección</b></h6>
               <p class="textoInformacionRestaurant">Triq Mons. Vella, Rabat</p>
