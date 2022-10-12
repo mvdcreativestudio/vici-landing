@@ -55,6 +55,26 @@ h6 {
   font-family: var(--font-primary);
 }
 
+
+/*--------------------------------------------------------------
+# Landing
+--------------------------------------------------------------*/
+
+.contenedor-texto-card {
+  padding-left: 20px;
+}
+
+.contenedor-testimonio {
+  padding: 10px;
+  margin: 0px;
+  border-radius: 30px;
+  background-color: #04a0ee;
+  color: white;
+  box-shadow: 5px 6px 14px -4px rgba(0,0,0,0.73);
+-webkit-box-shadow: 5px 6px 14px -4px rgba(0,0,0,0.73);
+-moz-box-shadow: 5px 6px 14px -4px rgba(0,0,0,0.73);
+}
+
 /*--------------------------------------------------------------
 # Sections & Section Header
 --------------------------------------------------------------*/
@@ -70,6 +90,20 @@ section {
 }
 
 .section-header h2 {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #001973;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.title1 {
   font-size: 32px;
   font-weight: 700;
   text-transform: uppercase;
@@ -698,6 +732,12 @@ color: rgb(0, 0, 0);
   margin-bottom: 0;
 }
 
+@media (max-width: 700px) {
+  .tituloComercios {
+    text-align: center;
+  }
+}
+
 /*--------------------------------------------------------------
 # Pricing Section
 --------------------------------------------------------------*/
@@ -806,14 +846,27 @@ color: rgb(0, 0, 0);
 --------------------------------------------------------------*/
 .hero {
   width: 100%;
-  min-height: 50vh;
-  background-color: var(--color-secondary);
-  background-image: url("../img/blake-wisz-pPA-_q5v1a8-unsplash.jpg");
+  height: auto;
+  background-color: #04a0ee;
   background-size: cover;
   background-position: center;
   position: relative;
-  padding: 120px 0 60px 0;
+  padding: 0 0 0 0;
   color: rgba(255, 255, 255, 0.8);
+}
+
+@media (max-width: 700px) {
+  .hero {
+    height: auto;
+    position: relative;
+    padding: 120px 0 0px 0;
+    color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+.hero-video {
+  object-fit: cover;
+  width: 100%;
 }
 .hero-container {
   padding-bottom: 10%;
